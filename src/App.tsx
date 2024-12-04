@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
-import StepperForm from "./components/stepper/StepperForm";
+import { Ratings } from "./components/rating/Ratings";
 
 function App() {
-	return <StepperForm />;
+	const [rating,setRating] = useState(2.5)
+	function getCurrentRatings(val:number){
+		setRating(val)
+	}
+	return <div className="container"></div>
 }
 
 export default App;

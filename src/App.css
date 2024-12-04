@@ -109,3 +109,32 @@
   margin-top: 5px; /* Adds space between input and error message */
 }
 
+
+
+.star {
+  position: relative;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.star span {
+  position: absolute;
+}
+
+.star .filled {
+  overflow: hidden;
+}
+
+.ratings {
+  display: flex;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
